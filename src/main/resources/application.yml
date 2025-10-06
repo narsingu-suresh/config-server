@@ -5,10 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/narsingu-suresh/config-repo
+          uri: ${git_hub_repo_link}
           default-label: main
-          username: narsingu-suresh
-          password: 
+          username: ${git_hub_username}
+          password: ${git_hub_personla_access_token}
 
 server:
   port: 8000
