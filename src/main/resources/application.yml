@@ -8,7 +8,7 @@ spring:
           uri: https://github.com/narsingu-suresh/config-repo
           default-label: main
           username: narsingu-suresh
-          password: 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
+          password: 
 
 server:
   port: 8000
